@@ -15,7 +15,6 @@ void main() {
     subtotal = num_prod * precio;
     total = subtotal + (subtotal * IVA);
 
-    printf("El valor a pagar es %f \n", &total);
+    printf("El valor a pagar es %f \n", total);
 
 }
-//    <>\    //
