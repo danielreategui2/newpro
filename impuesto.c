@@ -18,3 +18,4 @@ void main() {
     printf("El valor a pagar es %f \n", &total);
 
 }
+//    <>\    //
