@@ -13,6 +13,7 @@ int main() {
     scanf("%f", &cap_dis);
 
     printf("Ingresa la cantidad de documentos: ");
+    
     scanf("%d", &can_doc);
     printf("Ingresa la cantidad de imagenes: ");
     scanf("%d", &can_ima);
@@ -40,7 +41,7 @@ int main() {
     GB_usados = esp_total/GB;
     porcentaje = (GB_usados /cap_dis)*100;
 
-    printf("El espacio total utilizado por los archivos es: %f MB\n", GB_usados);
+    printf("El espacio total utilizado por los archivos es: %f MB\n", esp_total);
     printf("El espcio total en GB del disco es: %f GB\n", GB_usados);
     printf("El porcentaje utilizado del disco es: %f%%\n", porcentaje);
 
