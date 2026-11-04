@@ -1,6 +1,5 @@
 /*<>\*/
 #include <stdio.h>
-#include <math.h>
 int main() {
     int edad;
     float fcm, zona, bono;
