@@ -22,6 +22,6 @@ int main() {
     }else {
         printf("Los datos estan fuera del rango establecido.");
     }
-
+    return 0;
 
 }
